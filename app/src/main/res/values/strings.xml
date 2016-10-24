@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bottom Navigation</string>
+
+    <string name="tab1">CALLS</string>
+    <string name="tab2">CHATS</string>
+    <string name="tab3">CONTACTS</string>
+
+</resources>
