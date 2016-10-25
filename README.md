@@ -4,19 +4,19 @@ A sample app for Bottom Navigation View with ViewPager
 
 For connecting BottomNavigationView with ViewPager, you need to follow thesesteps
 
-1. First, you need to create an application add latest Design Support Library(25) to your build.gradle file to use BottomNavigationView. 
+1. First, you need to create an application with latest Design Support Library(25) to your build.gradle to use BottomNavigationView.
 
-2. Then add all the needed resources like color, drawable's in the respective resource directory.
+2. Then add all the necessary resources ( color, drawable’s ) to the resource directory.
 
 3. Create a view with ViewPager and BottomNavigationView
 
-4. Create the needed fragment for the different tab of the viewpager.
+4. Create necessary fragments for each tab on the viewpager.
  
 5. Then setup the viewpager using fragments and viewpager adapter.
 
 6. Add OnNavigationItemSelectedListener for BottomNavigationView, and override OnNavigationItemSelected method with the relevant action.
 
-7. Add OnPageChangeListener to the ViewPager, and override the PageSelected method. Here only the magic happens, The following set of code selects the relevant item of the BottomNavigationView.
+7. Once done with the previous step add OnPageChangeListener to the ViewPager and override the PageSelected method. The magic happens here, the following code selects the relevant item in the BottomNavigationView.
 
 <pre>
 @Override
