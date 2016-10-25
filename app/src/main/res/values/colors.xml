@@ -8,4 +8,6 @@
 
     <color name="tab_disable">#979797</color>
     <color name="tab_enable">#FFFFFF</color>
+    <color name="tab_checked">#F3CD70</color>
+    <color name="tab_unchecked">#FFFFFF</color>
 </resources>
